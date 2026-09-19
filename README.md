@@ -594,4 +594,17 @@ If you want the rules themselves rather than a linter for them — the scoped
 `.cursor/rules/*.mdc` set and the `CLAUDE.md` / `AGENTS.md` pair this tool is
 built to keep honest — they are sold as two packs:
 
+<!-- RELATED:START -->
+
+## Related tools
+
+- **[production-mcp-server-template](https://github.com/duke5am/production-mcp-server-template)** — A minimal working MCP server in TypeScript and Python with the production details right: stderr logging, structured error results, transports.
+  *(if you were searching for "mcp server example")*
+
+All 28 tools in this set, grouped by what they check: **[dev-tools-index](https://duke5am.github.io/dev-tools-index/)**
+
+If you arrived here searching for one of these, this is the tool: **agents.md best practices** · **claude.md rules** · **cursor rules globs** · **ai coding agent instructions**
+
+<!-- RELATED:END -->
+
 → **[Production Rules Pack for Cursor](https://duke5am.gumroad.com/l/01-cursor-rules-pack)** — $19 on Gumroad, **[Claude Code Config Pack](https://duke5am.gumroad.com/l/02-claude-code-config-pack)** — $19 on Gumroad <!-- GUMROAD-LINK -->
