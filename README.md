@@ -1,5 +1,4 @@
-# agent-config-lint
-
+# agents-md-check
 A static linter for the instruction files AI coding agents read: `AGENTS.md`,
 `CLAUDE.md`, `.cursor/rules/*.mdc`, `.cursorrules`,
 `.github/copilot-instructions.md` and relatives.
