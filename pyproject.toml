@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agents-md-check"
+version = "0.1.0"
+description = "Static linter for the instruction files AI coding agents read (AGENTS.md, CLAUDE.md, Cursor .mdc rules), with no dependencies."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "duke5am" }]
+keywords = [
+  "agents-md", "claude-md", "cursor-rules", "ai-agents", "linter",
+  "static-analysis", "llm", "context-engineering",
+]
+classifiers = [
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Quality Assurance",
+  "Topic :: Software Development :: Documentation",
+]
+# Standard library only, on purpose: the tool must run anywhere an agent runs.
+dependencies = []
+
+[project.scripts]
+agents-md-check = "agents_md_check.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/duke5am/agents-md-check"
+Issues = "https://github.com/duke5am/agents-md-check/issues"
+
+[tool.setuptools]
+packages = ["agents_md_check"]
+include-package-data = true

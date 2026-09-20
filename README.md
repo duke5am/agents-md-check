@@ -1,4 +1,7 @@
 # agents-md-check
+
+[![PyPI](https://img.shields.io/pypi/v/agents-md-check)](https://pypi.org/project/agents-md-check/)
+
 A static linter for the instruction files AI coding agents read: `AGENTS.md`,
 `CLAUDE.md`, `.cursor/rules/*.mdc`, `.cursorrules`,
 `.github/copilot-instructions.md` and relatives.
@@ -22,14 +25,19 @@ It deliberately does not have an opinion about wording. It never says a rule is
 *good* or *bad*; it says where a rule is broken, duplicated, unreachable or
 unverifiable.
 
-Written in the Python standard library. No installation, no dependencies, no
-network access.
+Written in the Python standard library. No dependencies, no network access.
 
 ---
 
-## Install-free usage
+## Install
 
-Nothing to install. Python 3.10+ (developed and tested on 3.13.5).
+```bash
+pip install agents-md-check          # from PyPI, Python 3.9+
+agents-md-check <path>
+```
+
+Or run it straight from a clone, no install. Python 3.10+ (developed and tested
+on 3.13.5).
 
 ```console
 $ python3 agent_config_lint.py <path> [options]
